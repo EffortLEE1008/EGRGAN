@@ -1,5 +1,7 @@
+
 from dataset import *
 import os
+import subprocess
 from model import *
 
 from vgg import *
@@ -9,9 +11,12 @@ import torch.nn.functional as F
 from torch.utils.tensorboard import SummaryWriter
 import gc
 import matplotlib.pyplot as plt
+import sys
+
 
 gc.collect()
 torch.cuda.empty_cache()
+
 
 MEAN=0.5
 STD=0.5
@@ -138,6 +143,9 @@ if __name__=='__main__':
 
     fig.subplots_adjust(left = 0.05, right = 0.95, wspace=0, hspace=0)
     plt.show()
+
+
+
 
 
 
