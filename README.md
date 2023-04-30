@@ -24,6 +24,6 @@ pip install -r requirements.txt
 
 2. You need to download the pre-trained model weights and place the downloaded files into the  `ckpt_dir`  directory
 
-3. run 'main2.py' file
+3. run `main2.py` file
 
 4. check output image
