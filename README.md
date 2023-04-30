@@ -15,6 +15,7 @@ python version = 3.6.5
 ```
 pip install -r requirements.txt
 ```
+0. Please download the PyTorch version that is compatible with your CUDA environment 
 
 1. Download pre-trained model weights.
 
@@ -41,6 +42,8 @@ pip install -r requirements.txt
 ```
 
 자신의 가상환경에서  `requirements.txt` 를 활용하여 환경을 맞춰주세요.
+
+0. 당신의 cuda 환경에 맞는 pytorch 버전을 다운로드 받으세요.
 
 1. pre-trained 모델의 가중치를 아래의 링크에서 다운로드받으세요.
 
